@@ -42,7 +42,7 @@ const Header = () => {
           </a>
         </li>
         <li className=''>
-          <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
+          <a href="#contact" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
             Contact
           </a>
         </li>

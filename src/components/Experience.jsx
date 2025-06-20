@@ -23,31 +23,30 @@ const Experience = () => {
           </ul> */}
 
       <div>
-        <h2 className="text-3xl font-bold text-center mb-8">Experience</h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
           <div className="p-6 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
-              <h3 className="text-xl font-semibold text-gray-500">Web Developer</h3>
-              <span className="ml-4 text-2xl font-semibold text-gray-500">| Accenture</span>
-              <span className="ml-auto text-sm font-semibold text-gray-500">2021 - Present</span>
+              <h3 className="text-xl text-slate-300">Web Developer |</h3>
+              <span className="ml-2 text-2xl font-semibold text-slate-300">Accenture</span>
+              <span className="ml-auto text-sm font-semibold text-slate-300">2021 - <sapn className="font-semibold text-green-200">Present</sapn></span>
             </div>
-            <p className="text-gray-700">Developed and maintained web applications using React and Node.js. Worked on a team to deliver high-quality software.</p>
+            <p className="text-gray-300 sm:pr-52">Developed and maintained web applications using React and Node.js. Worked on a team to deliver high-quality software. Design, build and test web-based applications for various site components and edit site content. Document technical designs and specifications. Research and incorporate updated content for websites.</p>
           </div>
           <div className="p-6 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
-              <h3 className="text-xl font-semibold text-gray-500">Web Developer</h3>
-              <span className="ml-4 text-2xl text-gray-500">| A2Z Technologies</span>
-              <span className="ml-auto text-sm text-gray-500">2020 - 2021</span>
+              <h3 className="text-xl font-thick text-slate-300">Web Developer |</h3>
+              <span className="ml-2 font-semibold text-2xl text-slate-300">A2Z Technologies</span>
+              <span className="ml-auto text-sm text-slate-300">2020 - 2021</span>
             </div>
-            <p className="text-gray-700">Assisted web developers in building and testing web applications. Gained experience with front-end and back-end technologies.</p>
+            <p className="text-gray-300">Assisted web developers in building and testing web applications. Gained experience with front-end and back-end technologies. Design and built the CMS sites using Wordpress, Shopify and Squarespace etc.</p>
           </div>
           <div className="p-6 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
-              <h3 className="text-xl font-semibold text-gray-500">Software Developer</h3>
-              <span className="ml-4 font-semibold text-2xl text-gray-500">| Dhariz Web Simplified</span>
-              <span className="ml-auto font-semibold text-sm text-gray-500">2018 - 2020</span>
+              <h3 className="text-xl text-slate-300">Software Developer |</h3>
+              <span className="ml-2 font-semibold text-2xl text-slate-300"> Dhariz Web Simplified</span>
+              <span className="ml-auto font-semibold text-sm text-slate-300">2018 - 2020</span>
             </div>
-            <p className="text-gray-700">Assisted web developers in building and testing web applications. Gained experience with front-end and back-end technologies.</p>
+            <p className="text-gray-300">Assisted web developers in building and testing web applications. Gained experience with front-end and back-end technologies.</p>
           </div>
         </div>
       </div>
