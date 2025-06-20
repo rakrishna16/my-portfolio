@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 const App = () => {
   return (
 
-    <div className="min-h-screen">
+    <div className="w-full min-h-screen">
       <Starfield
         starCount={1000}
         starColor={[255, 255, 255]}

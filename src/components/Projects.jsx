@@ -30,8 +30,8 @@ const Projects = () => {
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8, delay: 0.4 }}>
-        {projects.map((project) => (
-          <a href={project.link} target='_blank' key={project.id} className='flex flex-col rounded-xl overflow-hidden 
+        {projects.map((project,index) => (
+          <a href={project.link} target='_blank' key={index} className='flex flex-col rounded-xl overflow-hidden 
               transition-all duration-200 hover:scale-105 hover:shadow-2xl hover:shadow-gray-400 cursor-pointer gap-2'>
             <img src={project.image} className='hover:scale-105 transition-transform duration-100 w-full' alt={project.name} />
             <div className='p-5 flex flex-col gap-3 bg-gray-900 transition-colors duration-100 flex-grow'>
@@ -54,7 +54,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-<svg xmlns="http://www.w3.org/2000/svg"><defs><pattern id="a" width="30" height="30" patternTransform="scale(2)" patternUnits="userSpaceOnUse"><rect width="100%" height="100%" fill="#2b2b31" /><path fill="none" stroke="#ecc94b" d="M0 22.5h30v15H0zm15-15h30v15H15m-30-15h30v15h-30zm15-15h30v15H0z" /></pattern></defs><rect width="800%" height="800%" fill="url(#a)" /></svg>
-
-//background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='30' height='30' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(240,6.7%,17.6%,1)'/><path d='M0 22.5h30v15H0zm15-15h30v15H15m-30-15h30v15h-30zm15-15h30v15H0z'  stroke-width='1' stroke='hsla(47,80.9%,61%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>")

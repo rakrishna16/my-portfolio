@@ -16,41 +16,41 @@ const Header = () => {
   const [isMenuopne, setisMenuopne] = useState(false);
 
   return (
-    <header className='fixed w-full top-0 p-4 backdrop-blue-md bg-black/30 
+    <header className='fixed w-full top-0 p-2 sm:p-4 backdrop-blue-md bg-black/30 
     border-b-2 border-gray-700 border-opacity-20 z-50'>
       <h1 className='font-extrabold text-4xl --font-gothic-expanded text-center bg-gradient-to-r from-blue-600 via-pink-500 to-blue-400 text-transparent bg-clip-text'>Hari Krishnan</h1>
       {/* <p>Web Developer | React | JavaScript Enthusiast</p> */}
-      <ul className="flex space-y-1 font-medium justify-center">
+      <ul className="flex font-medium justify-center">
         <li className=''>
-          <a href="#about" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
+          <a href="#about" className="flex text-xs sm:text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
             About me
           </a>
         </li>
         <li className=''>
-          <a href="#skills" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
+          <a href="#skills" className="flex text-xs sm:text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
             Skills
           </a>
         </li>
         <li className=''>
-          <a href="#experience" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
+          <a href="#experience" className="flex text-xs sm:text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
             Experiance
           </a>
         </li>
         <li className=''>
-          <a href="#projects" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
+          <a href="#projects" className="flex text-xs sm:text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
             Projects
           </a>
         </li>
         <li className=''>
-          <a href="#contact" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
+          <a href="#contact" className="flex text-xs sm:text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:text-gray-400 group">
             Contact
           </a>
         </li>
       </ul>
 
       <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button"
-        className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 
-rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none 
+        className="hidden items-center p-2 mt-2 ms-3 text-sm text-gray-500 
+rounded-lg hover:bg-gray-100 focus:outline-none 
 focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 
 dark:focus:ring-gray-600" onClick={() => setisMenuopne(!isMenuopne)}>
         <span className="sr-only">Open sidebar</span>

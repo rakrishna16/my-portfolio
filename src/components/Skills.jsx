@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const Skills = () => {
     const skills = [{ tech: "HTML", percentage: "96%" }, { tech: "CSS", percentage: "96%" }, { tech: "Core Java", percentage: "65%" }, { tech: "JavaScript", percentage: "85%" }, { tech: "React.js", percentage: "70%" }, { tech: "Node.js", percentage: "75%" }, { tech: "MongoDB", percentage: "70%" }, { tech: "SQL", percentage: "90%" }, { tech: "Tailwind CSS", percentage: "95%" }, { tech: "Bootstrap", percentage: "95%" }];
     return (
-        <section className="p-4 md:p-8 lg:px-20 lg:py-10" id='skills'>
+        <section className="p-4 md:p-8 lg:px-20 lg:py-20" id='skills'>
             <motion.h1 className="text-4xl sm:text-6xl font-Rowdies font-extrabold text-white mt-5 mb-10 text-center"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ y: 0, opacity: 1 }}
@@ -13,10 +13,8 @@ const Skills = () => {
                 animate={{ x: 0 }} >Skills</motion.h1>
             <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2'>
                 {skills.map((skill, index) => (
-                    <div classnNme="grid grid-cols-1 gap-6 sm:grid-cols-2">
-                        <li key={index}>
-
-
+                    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2" key={index}>
+                        <li>
                             <div>
                                 <div className="flex justify-between mb-1">
                                     <span className="text-base font-medium text-blue-700 dark:text-white">{skill.tech}</span>
@@ -31,8 +29,6 @@ const Skills = () => {
                                     />
                                 </div>
                             </div>
-
-
                         </li>
                     </div>
                 ))}
