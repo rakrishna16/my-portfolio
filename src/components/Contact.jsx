@@ -7,7 +7,7 @@ import { IoIosMail } from "react-icons/io";
 const Contact = () => {
 
     const onButtonClick = () => {
-        const pdfUrl = "src/assets/HK_resume.pdf";
+        const pdfUrl = "https://github.com/rakrishna16/my-portfolio/blob/main/src/assets/HK_resume.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
         link.download = "Hari_krishnan_resume.pdf";
@@ -35,7 +35,7 @@ const Contact = () => {
                 <h3 className='text-gray-300 text-1xl sm:text-2xl pb-10'>
                     Click on below button to download Resume
                 </h3>
-                <button onclick={onButtonClick} className='pointer-events-auto bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>
+                <button onClick={onButtonClick} className='pointer-events-auto bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>
                     Download My Resume
                 </button>
             </center>

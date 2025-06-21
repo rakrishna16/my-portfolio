@@ -4,7 +4,7 @@ import { image } from 'motion/react-client';
 
 const Projects = () => {
   const projects = [
-    { name: "Education Website", description: "HTML Tailwind CSS website from figma design to education website.", link: "https://tailwindlandinghk.netlify.app/", image: "src/assets/tailwind_css_landing_page_mokup.jpeg", technologies: ["HTML", "Tailwind CSS"] },
+    { name: "Education Website", description: "HTML Tailwind CSS website from figma design to education website.", link: "https://tailwindlandinghk.netlify.app/", image: "assets/tailwind_css_landing_page_mokup.jpeg", technologies: ["HTML", "Tailwind CSS"] },
     { name: "Movie Search App", description: "React application to search for movies.", link: "https://hkxmsearch.netlify.app/", image: "src/assets/movie_search_app.jpeg", technologies: ["React.js", "Tailwind CSS", "exppress", "Vite"] },
     { name: "Memory Flip Card Game", description: "A javascript application to play memory flip card game.", link: "https://memoryflipgamehk.netlify.app/", image: "src/assets/memory_flip_card_game.jpeg", technologies: ["Javascript", "CSS", "HTML"] },
     { name: "News Website", description: "A News website to fetch news from API and display.", link: "https://newshk.netlify.app/", image: "src/assets/news_app_image.jpeg", technologies: ["React.js", "Tailwind CSS", "Vite", "HTML", "JavaScript"] },
