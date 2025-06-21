@@ -4,13 +4,16 @@ import { image } from 'motion/react-client';
 
 const Projects = () => {
   const projects = [
-    { name: "Education Website", description: "HTML Tailwind CSS website from figma design to education website.", link: "https://tailwindlandinghk.netlify.app/", image: "assets/tailwind_css_landing_page_mokup.jpeg", technologies: ["HTML", "Tailwind CSS"] },
-    { name: "Movie Search App", description: "React application to search for movies.", link: "https://hkxmsearch.netlify.app/", image: "src/assets/movie_search_app.jpeg", technologies: ["React.js", "Tailwind CSS", "exppress", "Vite"] },
-    { name: "Memory Flip Card Game", description: "A javascript application to play memory flip card game.", link: "https://memoryflipgamehk.netlify.app/", image: "src/assets/memory_flip_card_game.jpeg", technologies: ["Javascript", "CSS", "HTML"] },
-    { name: "News Website", description: "A News website to fetch news from API and display.", link: "https://newshk.netlify.app/", image: "src/assets/news_app_image.jpeg", technologies: ["React.js", "Tailwind CSS", "Vite", "HTML", "JavaScript"] },
-    { name: "E-commerce Store", description: "A mock e-commerce application with React.", link: "https://product-hkx.netlify.app/", image: "src/assets/Product_page_cart_add_delete.jpeg", technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite", "HTML"] },
-    { name: "Login Page ", description: "A mock login page application with registration, login and password reset functionality.", link: "https://password-reset-hkx.netlify.app/", image: "src/assets/register_login_password_reset_app.jpeg", technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite", "HTML", "Node.js", "MongoDB", "Express"] },
-    { name: "Travel Agent Website", description: "HTML CSS website from figma design to travel agent website.", link: "https://landinghk.netlify.app/", image: "src/assets/html5_css3_landing_page_mokup.jpeg", technologies: ["HTML", "CSS"] }
+    { name: "Education Website", description: "HTML Tailwind CSS website from figma design to education website.", link: "https://tailwindlandinghk.netlify.app/", image: "https://raw.githubusercontent.com/rakrishna16/my-portfolio/refs/heads/main/src/assets/tailwind_css_landing_page_mokup.jpeg", technologies: ["HTML", "Tailwind CSS"] },
+    { name: "Movie Search App", description: "React application to search for movies.", link: "https://hkxmsearch.netlify.app/", image: "https://raw.githubusercontent.com/rakrishna16/my-portfolio/refs/heads/main/src/assets/movie_search_app.jpeg", technologies: ["React.js", "Tailwind CSS", "exppress", "Vite"] },
+    { name: "Memory Flip Card Game", description: "A javascript application to play memory flip card game.", link: "https://memoryflipgamehk.netlify.app/", image: "https://raw.githubusercontent.com/rakrishna16/my-portfolio/refs/heads/main/src/assets/memory_flip_card_game.jpeg", technologies: ["Javascript", "CSS", "HTML"] },
+    { name: "News Website", description: "A News website to fetch news from API and display.", link: "https://newshk.netlify.app/", image: "https://raw.githubusercontent.com/rakrishna16/my-portfolio/refs/heads/main/src/assets/news_app_image.jpeg", technologies: ["React.js", "Tailwind CSS", "Vite", "HTML", "JavaScript"] },
+    { name: "E-commerce Store", description: "A mock e-commerce application with React.", 
+      link: "https://product-hkx.netlify.app/", 
+      image: "https://raw.githubusercontent.com/rakrishna16/my-portfolio/refs/heads/main/src/assets/Product_page_cart_add_delete.jpeg", 
+      technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite", "HTML"] },
+    { name: "Login Page ", description: "A mock login page application with registration, login and password reset functionality.", link: "https://password-reset-hkx.netlify.app/", image: "https://raw.githubusercontent.com/rakrishna16/my-portfolio/refs/heads/main/src/assets/register_login_password_reset_app.jpeg", technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite", "HTML", "Node.js", "MongoDB", "Express"] },
+    { name: "Travel Agent Website", description: "HTML CSS website from figma design to travel agent website.", link: "https://landinghk.netlify.app/", image: "https://raw.githubusercontent.com/rakrishna16/my-portfolio/refs/heads/main/src/assets/html5_css3_landing_page_mokup.jpeg", technologies: ["HTML", "CSS"] }
   ];
   return (
     <section className="mx-auto mx-w-6xl p-4 md:p-8 lg:p-20 bg-gradient-to-t backdrop-blue-md bg-black/30" id='projects'>
