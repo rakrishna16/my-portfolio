@@ -7,7 +7,7 @@ import { IoIosMail } from "react-icons/io";
 const Contact = () => {
 
     const onButtonClick = () => {
-        const pdfUrl = "https://github.com/rakrishna16/my-portfolio/blob/main/src/assets/HK_resume.pdf";
+        const pdfUrl = "assets/HK_resume.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
         link.download = "Hari_krishnan_resume.pdf";
