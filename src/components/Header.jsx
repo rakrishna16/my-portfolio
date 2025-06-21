@@ -13,12 +13,12 @@ import React, { useState } from 'react';
 
 const Header = () => {
 
-  const [isMenuopne, setisMenuopne] = useState(false);
+  // const [isMenuopne, setisMenuopne] = useState(false);
 
   return (
     <header className='fixed w-full top-0 p-2 sm:p-4 backdrop-blue-md bg-black/30 
     border-b-2 border-gray-700 border-opacity-20 z-50'>
-      <h1 className='font-extrabold text-4xl --font-gothic-expanded text-center bg-gradient-to-r from-blue-600 via-pink-500 to-blue-400 text-transparent bg-clip-text'>Hari Krishnan</h1>
+      <h1 className='font-extrabold text-4xl --font-gothic-expanded text-center bg-gradient-to-r from-blue-600 via-pink-500 to-blue-400 text-transparent bg-clip-text uppercase'>Hari Krishnan</h1>
       {/* <p>Web Developer | React | JavaScript Enthusiast</p> */}
       <ul className="flex font-medium justify-center">
         <li className=''>
@@ -47,8 +47,7 @@ const Header = () => {
           </a>
         </li>
       </ul>
-
-      <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button"
+      {/* <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button"
         className="hidden items-center p-2 mt-2 ms-3 text-sm text-gray-500 
 rounded-lg hover:bg-gray-100 focus:outline-none 
 focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 
@@ -117,7 +116,7 @@ dark:focus:ring-gray-600" onClick={() => setisMenuopne(!isMenuopne)}>
             </li>
           </ul>
         </div>
-      </aside>)}
+      </aside>)} */}
 
     </header>
   );

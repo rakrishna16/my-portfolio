@@ -8,13 +8,13 @@ const Projects = () => {
     { name: "Movie Search App", description: "React application to search for movies.", link: "https://hkxmsearch.netlify.app/", image: "src/assets/movie_search_app.jpeg", technologies: ["React.js", "Tailwind CSS", "exppress", "Vite"] },
     { name: "Memory Flip Card Game", description: "A javascript application to play memory flip card game.", link: "https://memoryflipgamehk.netlify.app/", image: "src/assets/memory_flip_card_game.jpeg", technologies: ["Javascript", "CSS", "HTML"] },
     { name: "News Website", description: "A News website to fetch news from API and display.", link: "https://newshk.netlify.app/", image: "src/assets/news_app_image.jpeg", technologies: ["React.js", "Tailwind CSS", "Vite", "HTML", "JavaScript"] },
-    { name: "E-commerce Store", description: "A mock e-commerce application with React.", link: "https://product-hkx.netlify.app/", image: "src/assets/Product_page_cart_add_delete.jpeg", technologies: ["React.js","JavaScript", "Tailwind CSS", "Vite", "HTML"] },
-    { name: "Login Page ", description: "A mock login page application with registration, login and password reset functionality.", link: "https://password-reset-hkx.netlify.app/", image: "src/assets/register_login_password_reset_app.jpeg", technologies: ["React.js","JavaScript", "Tailwind CSS", "Vite","HTML","Node.js", "MongoDB","Express"] },
+    { name: "E-commerce Store", description: "A mock e-commerce application with React.", link: "https://product-hkx.netlify.app/", image: "src/assets/Product_page_cart_add_delete.jpeg", technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite", "HTML"] },
+    { name: "Login Page ", description: "A mock login page application with registration, login and password reset functionality.", link: "https://password-reset-hkx.netlify.app/", image: "src/assets/register_login_password_reset_app.jpeg", technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite", "HTML", "Node.js", "MongoDB", "Express"] },
     { name: "Travel Agent Website", description: "HTML CSS website from figma design to travel agent website.", link: "https://landinghk.netlify.app/", image: "src/assets/html5_css3_landing_page_mokup.jpeg", technologies: ["HTML", "CSS"] }
   ];
   return (
     <section className="mx-auto mx-w-6xl p-4 md:p-8 lg:p-20 bg-gradient-to-t backdrop-blue-md bg-black/30" id='projects'>
-      <div className="text-center relative mb-10 p-5">
+      <div className="text-center relative mt-24 sm:mt-5 mb-10 p-5">
 
 
         <motion.h1 className="text-4xl sm:text-6xl font-Rowdies font-extrabold text-white mb-3"
@@ -30,7 +30,7 @@ const Projects = () => {
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8, delay: 0.4 }}>
-        {projects.map((project,index) => (
+        {projects.map((project, index) => (
           <a href={project.link} target='_blank' key={index} className='flex flex-col rounded-xl overflow-hidden 
               transition-all duration-200 hover:scale-105 hover:shadow-2xl hover:shadow-gray-400 cursor-pointer gap-2'>
             <img src={project.image} className='hover:scale-105 transition-transform duration-100 w-full' alt={project.name} />

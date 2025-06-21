@@ -55,31 +55,25 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className='flex flex-col-reverse items-center md:flex-row justify-cente gap-8 md:gap-16 lg:gap-24' >
+          className='flex flex-col sm:flex-col-reverse items-center md:flex-row justify-cente gap-8 md:gap-16 lg:gap-24' >
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
-            className='flex flex-col items-center md:items-start justify-center gap-3 ml-16' >
+            className='flex flex-col items-center md:items-start justify-center gap-3 sm:ml-16 mt-24 sm:mt-0' >
             <span className='px-2 py-1 text-white rounded-full text-xs md:text-sm bg-zinc-500 z-20'>Open to Hire</span>
             <h2 className='font-semibold z-20 text-5xl md:text-6xl lg:text-8xl text-center md:text-left bg-gradient-to-r from-blue-600 via-pink-500 to-blue-400 text-transparent bg-clip-text'>About Me</h2>
             <p className='text-s md:text-base lg:text-lg text-slate-300 text-center md:text-left text-pretty z-20'>
               I am a passionate web developer specializing in building responsive and intuitive web applications.
             </p>
-
           </motion.div>
-
-          <svg className='w-100 md:w-200 h-100 z-20 sm:ml-28'>
-            <g transform="translate(10 10) scale(17 17)">
+          <svg className='w-98 sm:w-100 md:w-200 lg:200 h-100 z-20 ml:1 sm:ml-28'>
+            <g transform="translate(10 10) scale(17 17)" className='align-middle'>
               <motion.path fill={fill} d={path} />
             </g>
           </svg>
-
-
         </motion.div>
-
-
       </section>
     </>
   );

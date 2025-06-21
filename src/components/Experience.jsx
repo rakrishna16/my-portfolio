@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <section className='p-4 md:p-8 lg:px-20 lg:py-20' id='experience'>
       {/* <h2>Experience</h2> */}
-      <motion.h2 className="text-3xl sm:text-6xl font-Rowdies font-extrabold text-white mt-5 mb-10 text-center"
+      <motion.h2 className="text-3xl sm:text-6xl font-Rowdies font-extrabold text-white mt-24 sm:mt-5 mb-10 text-center"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
