@@ -27,7 +27,7 @@ const Contact = () => {
                 <a href="https://github.com/rakrishna16" target='_blank' className="m-5 p-10 w-20 sm:w-30 "><FaGithub className='text-gray-300 text-5xl sm:text-6xl float-end' /></a>
                 <a href="https://www.linkedin.com/in/hari-krishnan-doss/" target='_blank' className="m-5 p-10 w-20 sm:w-30 text-gray-500 hover:text-gray-700"><FaLinkedin className='text-blue-400 text-5xl sm:text-6xl' />
                 </a>
-                <a href="tel:7010802254" className="m-5 p-10 w-20 sm:w-30 text-gray-500 hover:text-gray-700"><BiPhoneCall className='text-amber-300 text-5xl sm:text-6xl float-end' />
+                <a href="tel:#" className="m-5 p-10 w-20 sm:w-30 text-gray-500 hover:text-gray-700"><BiPhoneCall className='text-amber-300 text-5xl sm:text-6xl float-end' />
                 </a>
                 <a href="mailto:rakrishna16@gmail.com" className="m-5 p-10 w-20 sm:w-30 text-gray-500 hover:text-gray-700"><IoIosMail className='text-red-300 text-5xl sm:text-6xl' /></a>
             </div>
